@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AHalloweenNightsDream" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AHalloweenNightsDream" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AHalloweenNightsDream" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Loader/datatilepropertys.cpp" />
+		<Unit filename="Loader/datatilepropertys.h" />
+		<Unit filename="Loader/level.cpp" />
+		<Unit filename="Loader/level.h" />
+		<Unit filename="Loader/objects.cpp" />
+		<Unit filename="Loader/objects.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="enemy.h" />
+		<Unit filename="firstMapgameStart.h" />
+		<Unit filename="helpMenu.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainMenu.h" />
+		<Unit filename="pause.h" />
+		<Unit filename="player.h" />
+		<Unit filename="pumpkin.h" />
+		<Unit filename="setting.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

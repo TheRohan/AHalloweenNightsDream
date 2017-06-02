@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1495947456 source:/home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/main.cpp
+	"firstMapgameStart.h"
+	"mainMenu.h"
+	"helpMenu.h"
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1495947953 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/player.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+	"Loader/level.h"
+	"pumpkin.h"
+	"pause.h"
+
+1482874665 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/level.h
+	<pugixml.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	<typeinfo>
+	<cstring>
+	<string>
+	<vector>
+	<list>
+	"datatilepropertys.h"
+	"objects.h"
+
+1482874665 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/datatilepropertys.h
+	<SFML/Graphics/Color.hpp>
+	<string>
+	<cstring>
+	<cstdlib>
+	<sstream>
+	<math.h>
+
+1482874665 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/objects.h
+	<SFML/Graphics.hpp>
+	<string>
+	<list>
+
+1482874665 source:/home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/datatilepropertys.cpp
+	"datatilepropertys.h"
+
+1489909709 source:/home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/level.cpp
+	"level.h"
+
+1482874665 source:/home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/Loader/objects.cpp
+	"objects.h"
+
+1489910716 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/view.h
+	<SFML/Graphics.hpp>
+
+1495028319 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/pumpkin.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1495209081 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/enemy.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+	"player.h"
+
+1495947714 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/firstMapgameStart.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	"setting.h"
+	"player.h"
+	"enemy.h"
+	"mainMenu.h"
+
+1495947823 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/mainMenu.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+	"setting.h"
+
+1495948008 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/setting.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+
+1495947846 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/pause.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1495947775 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/helpMenu.h
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+
+1494942622 /home/ruslan/Desktop/MainProject_CaptureTheLight/AHalloweenNightsDream/creators.h
+
